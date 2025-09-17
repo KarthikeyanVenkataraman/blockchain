@@ -1,4 +1,4 @@
-**Overview **
+**Overview**
 
 The PersonalLocker contract allows the deployer (owner) to store a secret message along with a password. The owner can update the message only by providing the correct password. The contract emits an event whenever the message is updated and provides a public view function to read the message
 
