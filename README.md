@@ -2,6 +2,11 @@
 
 The PersonalLocker contract allows the deployer (owner) to store a secret message along with a password. The owner can update the message only by providing the correct password. The contract emits an event whenever the message is updated and provides a public view function to read the message
 
+**Snapshot**
+
+<img width="627" height="328" alt="image" src="https://github.com/user-attachments/assets/a5660610-5e53-413b-9ff3-a93d09c83abe" />
+
+
 **Pre-requisites**
 1.	Need Node.js in your local machine, In case, its not available Download node.js msi installer from https://nodejs.org/en/download/ ( For Windows )
 
