@@ -34,7 +34,33 @@ For running the contract in Sepolia Testnet there are three things required
 1.	API endpoint which points to Sepolia - Got it from Alchemy
 2.	For getting ETH, used https://cloud.google.com/application/web3/faucet/ethereum/sepolia and provided the ETH Wallet address which is got from Metamask
 3.	The Metamask pprivate key is stored in .env
+
 Commands to run in Sepolia Its the same set of commands which is run in local expect that the --network localhost is replaced with sepolia --network sepolia
 
 1.	npx hardhat run scripts/deploy.js --network sepolia
 2.	npx hardhat run scripts/update.js --network sepolia
+
+**Screenshot 1 - deploy.js execution – LOCAL**
+ 
+<img width="940" height="463" alt="image" src="https://github.com/user-attachments/assets/d68b6f90-8d32-421d-9b32-12771fa4ed05" />
+
+**Screenshot 2 - update.js execution - LOCAL**
+
+<img width="940" height="378" alt="image" src="https://github.com/user-attachments/assets/66552c98-51ec-4d61-8bd4-5a0e402f25f2" />
+
+**Screenshot 3 - Metamask Chrome Extension for Wallet**
+
+<img width="467" height="698" alt="image" src="https://github.com/user-attachments/assets/3d7c28a1-898d-4604-ac4f-400426d818fa" />
+
+**Screenshot 4 - Ethereum Sepolia Faucet**
+
+<img width="940" height="525" alt="image" src="https://github.com/user-attachments/assets/7694d412-bef6-43b1-a9ff-2a0fe89a469d" />
+
+**Screenshot 5 - Alchemy Dashboard showing App deployment**
+
+<img width="940" height="519" alt="image" src="https://github.com/user-attachments/assets/3bef1435-9678-4aa1-a56b-2a677672c420" />
+
+**Screenshot 6 - Deployment and Update in Sepolia**
+
+<img width="940" height="381" alt="image" src="https://github.com/user-attachments/assets/0e14507c-0356-4703-b751-45b363679cf1" />
+
